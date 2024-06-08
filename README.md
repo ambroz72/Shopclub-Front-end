@@ -21,7 +21,7 @@ Crafting user-centric and interactive web interfaces.
 Harnessing the power of HTML to structure compelling web pages.
 Designing an aesthetically pleasing layout with clear product categorization.
 
-![screenshot](screenshot/login.png)
+![screenshot](screenshot/signup.png)
 
 ShopClub serves as a testament to my front-end development proficiency from 2022. I'm fueled by the desire to continuously learn and build even more 
 captivating e-commerce experiences in the future!
