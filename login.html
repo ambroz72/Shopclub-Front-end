@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <ul class="nav nav-pills">
+            <li class="nav-item "> <a class="nav-link"><b>SHOP CLUB</b></a> </li><br>
+            <li class="nav-item "> <a class="nav-link active" href="home.html"><b>Home</b></a> </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><b>Category</b> </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Electronics.html"><b>Electronics</b></a>
+                    <a class="dropdown-item" href="Food Items.html"><b>Food Items</b></a>
+                    <a class="dropdown-item" href="Clothing.html"><b>Clothing</b></a>
+                    <a class="dropdown-item disabled" href="#">Gagets</a>
+                    <a class="dropdown-item disabled" href="#">Accessories</a>
+                </div>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="sign up.html"><b>Sign up</b></a></li>
+            <li class="nav-item"> <a class="nav-link" href="login.html"><b>Login</b></a></li>
+            <!-- <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal"><b>Login</b></button> -->
+
+            <li class="nav-item"> <a class="nav-link" href="cart.html"><b>Cart</b></a></li>
+        </ul>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Sign up</h2>
+        <form action="#">
+
+            <div class="form-control">
+                <input type="text" required>
+                <label>Email or phone number</label>
+            </div>
+
+            <div class="form-control">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+
+            <button type="submit">Login</button>
+            <div class="form-help">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+            </div>
+        </form>
+        <p>Don't have an account? <a href="#">Signup now</a></p>
+        <small>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. 
+            <a href="#">Learn more.</a>
+        </small>
+    </div>
+
+    <div class="footer">
+        <h5> © 2022 SHOPCLUB. ALL RIGHTS RESERVED</h5>
+    </div>
+
+</body>
+
+</html>

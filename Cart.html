@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            text-align: center;
+            background-image: url("img/ct.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+        }
+        
+        h2 {
+            text-decoration: underline;
+            color: rgb(251, 250, 252);
+            font-size: 2vw;
+        }
+        
+        p {
+            color: white;
+            font-size: 1vw;
+        }
+        
+        .footer {
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3%;
+            background-color: rgb(11, 15, 13);
+            color: white;
+            overflow: auto;
+        }
+        
+        .i {
+            position: absolute;
+            top: 25%;
+            left: 84%;
+            font-size: 1vw;
+        }
+        
+        .img {
+            font-size: 1vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <ul class="nav nav-pills">
+            <li class="nav-item "> <a class="nav-link"><b>SHOP CLUB</b></a> </li>
+            <li class="nav-item "> <a class="nav-link" href="home.html"><b>Home</b></a> </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><b>Category</b> </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Electronics.html"><b>Electronics</b></a>
+                    <a class="dropdown-item" href="Food Items.html"><b>Food Items</b></a>
+                    <a class="dropdown-item" href="Clothing.html"><b>Clothing</b></a>
+                    <a class="dropdown-item disabled" href="#">Gagets</a>
+                    <a class="dropdown-item disabled" href="#">Accessories</a>
+                </div>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="sign up.html"><b>Sign up</b></a></li>
+            <li class="nav-item"> <a class="nav-link" href="login.html"><b>Login</b></a></li>
+            <!-- <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal"><b>Login</b></button> -->
+            <li class="nav-item"> <a class="nav-link" href="cart.html"><b>Cart</b></a></li>
+        </ul>
+        <div class="i">
+            <input class="search" type="text" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-primary">Go</button><br><br>
+        </div>
+
+    </nav><br><br>
+
+    <div class="img">
+        <img src="img/shopclub.png" alt="HTML" style="width:300px;height:120px;"><br>
+    </div><br><br>
+
+    <div class="container">
+        <div class="card">
+            <img class="card-img-top" src="https://www.eyecatchers.in/shop-online/images/cart-empty.jpg" alt="Card image" width="50%" class="img-fluid">
+            <div class="card-body">
+                <h4 class="card-title">Opz!</h4>
+                <p class="card-text"></p>
+                <a href="home.html" class="btn btn-dark stretched-link">Back to Shopping</a>
+            </div>
+        </div>
+    </div><br><br>
+
+    <p class="text-warning">Toll free No: 1-800-425-4747 (Within India only) </p>
+    <ul class="nav justify-content-center">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="home.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="Electronics.html">2</a> </li>
+            <li class="page-item"><a class="page-link" href="Food Items.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="Clothing.html">4</a> </li>
+            <li class="page-item"><a class="page-link" href="sign up.html">5</a></li>
+            <li class="page-item active"><a class="page-link" href="cart.html">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </ul><br><br>
+
+    <div class="footer">
+        <p> © 2022 SHOPCLUB. ALL RIGHTS RESERVED</p>
+    </div>
+</body>
+
+</html>
