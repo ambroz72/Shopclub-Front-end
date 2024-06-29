@@ -61,7 +61,6 @@ python manage.py runserver
 
 # Usage
 Navigate to http://localhost:8000/ to access the website.
-Sign up or log in to manage movies, categories, and user profiles.
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
