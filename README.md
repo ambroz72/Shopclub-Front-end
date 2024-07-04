@@ -70,4 +70,4 @@ Contributions are welcome! Please fork the repository and submit pull requests.
 
 # Customization
 Customize the template according to your project’s specific details, structure, and preferences. Ensure clarity and completeness so that anyone visiting your repository can understand and use your project effectively.
-# HTML/CSS # Bootstrap # Front-end  # shopclub #Web development 
+# HTML/CSS  Bootstrap  Front-end   shopclub Web development 
